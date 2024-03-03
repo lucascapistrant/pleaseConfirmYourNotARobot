@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,"Helvetica Neue",Arial,sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #999;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CaptchaLogo {
+    width: 35px;
+    height: 35px;
+    margin: 0 9px;
+}
+
+/* initial captcha check box */
+
+.captchaBar {
+    width: 300px;
+    height: 74px;  
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+    background-color: rgb(250, 250, 250);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+}
+
+.captchaBar__checkBox {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 4px;
+    background-color: rgb(250, 250, 250);
+    margin: 15px;
+}
+
+.captchaBar__checkBox:hover {
+    border-color: #000;
+}
+
+.captchaBar__text {
+    font-size: 1.4rem;
+    color: rgb(85, 85, 85);
+}
+
+.captchaBar__details {
+    margin-left: auto;
+}
+
+.details__text {
+    font-weight: 900;
+    color: #555;
+    margin: 0;
+    text-align: center;
+}
