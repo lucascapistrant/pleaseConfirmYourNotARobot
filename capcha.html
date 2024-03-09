@@ -33,15 +33,11 @@
           class="picBox__header-img"
           src="pleaseconfirmyournotarobot/lvl1/dog2.png"
           alt="A Picture of a dog"
+          data-isDog="hello"
         />
       </header>
-      <div class="picBox__body">
+      <div class="picBox__body" id="lvl1__picBody">
         <div class="img-wrapper">
-          <img
-            class="picBox__img"
-            src="pleaseconfirmyournotarobot/lvl1/dog1.png"
-            alt="a dog"
-          />
           <img
             class="checkMark"
             src="pleaseconfirmyournotarobot/checkmark.svg"
@@ -49,10 +45,11 @@
         </div>
         <div class="img-wrapper">
           <img
-            class="picBox__img"
-            src="pleaseconfirmyournotarobot/lvl1/dog3.png"
-            alt="a dog"
+            class="checkMark"
+            src="pleaseconfirmyournotarobot/checkmark.svg"
           />
+        </div>
+        <div class="img-wrapper">
           <img
             class="checkMark"
             src="pleaseconfirmyournotarobot/checkmark.svg"
@@ -60,10 +57,11 @@
         </div>
         <div class="img-wrapper">
           <img
-            class="picBox__img"
-            src="pleaseconfirmyournotarobot/lvl1/dog4.png"
-            alt="a dog"
+            class="checkMark"
+            src="pleaseconfirmyournotarobot/checkmark.svg"
           />
+        </div>
+        <div class="img-wrapper">
           <img
             class="checkMark"
             src="pleaseconfirmyournotarobot/checkmark.svg"
@@ -71,10 +69,11 @@
         </div>
         <div class="img-wrapper">
           <img
-            class="picBox__img"
-            src="pleaseconfirmyournotarobot/lvl1/dog5.png"
-            alt="a dog"
+            class="checkMark"
+            src="pleaseconfirmyournotarobot/checkmark.svg"
           />
+        </div>
+        <div class="img-wrapper">
           <img
             class="checkMark"
             src="pleaseconfirmyournotarobot/checkmark.svg"
@@ -82,54 +81,11 @@
         </div>
         <div class="img-wrapper">
           <img
-            class="picBox__img"
-            src="pleaseconfirmyournotarobot/lvl1/dog6.png"
-            alt="a dog"
-          />
-          <img
             class="checkMark"
             src="pleaseconfirmyournotarobot/checkmark.svg"
           />
         </div>
         <div class="img-wrapper">
-          <img
-            class="picBox__img"
-            src="pleaseconfirmyournotarobot/lvl1/dog7.png"
-            alt="a dog"
-          />
-          <img
-            class="checkMark"
-            src="pleaseconfirmyournotarobot/checkmark.svg"
-          />
-        </div>
-        <div class="img-wrapper">
-          <img
-            class="picBox__img"
-            src="pleaseconfirmyournotarobot/lvl1/dog8.png"
-            alt="a dog"
-          />
-          <img
-            class="checkMark"
-            src="pleaseconfirmyournotarobot/checkmark.svg"
-          />
-        </div>
-        <div class="img-wrapper">
-          <img
-            class="picBox__img"
-            src="pleaseconfirmyournotarobot/lvl1/dog9.png"
-            alt="a dog"
-          />
-          <img
-            class="checkMark"
-            src="pleaseconfirmyournotarobot/checkmark.svg"
-          />
-        </div>
-        <div class="img-wrapper">
-          <img
-            class="picBox__img"
-            src="pleaseconfirmyournotarobot/lvl1/dog10.png"
-            alt="a dog"
-          />
           <img
             class="checkMark"
             src="pleaseconfirmyournotarobot/checkmark.svg"
@@ -137,7 +93,7 @@
         </div>
       </div>
       <footer class="picBox__footer">
-        <button class="verify">Verify</button>
+        <button class="verify" id="lvl1-verify">Verify</button>
       </footer>
     </div>
     <script src="capcha.js"></script>
